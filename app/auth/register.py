@@ -1,5 +1,5 @@
 from flask import request, jsonify
-from app.models.DataDosen import DataDosen  # Pastikan mengimpor model yang sesuai
+from app.models.DataDosen import DataDosen
 
 # Ambil objek Flask app dari modul utama
 from app import app, db
