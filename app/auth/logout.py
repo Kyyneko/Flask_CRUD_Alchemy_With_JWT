@@ -1,7 +1,7 @@
 from flask import request, jsonify
 from flask_jwt_extended import jwt_required, unset_jwt_cookies, get_jwt
 from app import app, db
-from app.models.BlacklistToken import BlacklistToken  # Memperbaiki impor BlacklistToken
+from app.models.BlacklistToken import BlacklistToken 
 
 # Endpoint untuk logout, memerlukan autentikasi JWT
 @app.route('/logout', methods=['POST'])
