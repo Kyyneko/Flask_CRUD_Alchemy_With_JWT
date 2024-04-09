@@ -1,6 +1,6 @@
 from flask import request, jsonify
 from flask_jwt_extended import create_access_token
-from app.models.DataDosen import DataDosen  # Pastikan mengimpor model yang sesuai
+from app.models.DataDosen import DataDosen  
 
 # Ambil objek Flask app dari modul utama
 from app import app
